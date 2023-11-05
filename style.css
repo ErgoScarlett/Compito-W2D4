@@ -1,0 +1,303 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding: 25px, 50px;
+
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    height: 60px;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px lightgray;
+}
+
+.logo {
+    height: 25px;
+    width: auto;
+    padding-left: 70px;
+}
+
+div.right-side {
+    padding-right: 70px;
+    align-items: center;
+}
+
+#item {
+    color: lightgrey;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    margin-right: 15px;
+    border-radius: 40px;
+    border: solid 1px lightgray;
+}
+
+button > p {
+    text-align: center;
+    color: black;
+    font-size: 10px;
+}
+
+div.box-area {
+    padding-top: 30px;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.left-container {
+    width: 70%;
+    min-height: 500px;
+    border-right: solid 1px lightgray;
+}
+
+.pages {
+    border-bottom: solid 1px lightgray;
+    margin: 30px;
+}
+
+.pages> span {
+    font-size: 20px;
+    margin-right: 20px;
+    color: black;
+}    
+
+.left {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+
+.news {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    flex-direction: column;
+    width: 500px;
+    height: 150px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+h5 {
+    margin-right: 5px;
+}
+
+.mini {
+height: 20px;
+width: 20px;
+border-radius: 5px;
+margin-right: 5px;
+}
+
+.longt {
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 10px 0px;
+}
+
+
+
+.space {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+span {
+    font-size: small;
+    color: gray;
+    margin-right: 5px;
+}
+
+.last {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.pic {
+    height: 130px;
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+}
+
+.right-container {
+    width: 30%;
+    min-height: 500px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0  50px;
+    border-bottom: solid lightgray 1px;
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+}
+
+.twitter > img {
+    height: 40px;
+    width: fit-content;
+}
+
+.twitter1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.twitter1 > span {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.twitter2 > button {
+    border: solid lightgray 1px
+}
+
+.twitter3 {
+    padding: 10px;
+}
+
+.twitter3 > span {
+    text-align: center;
+    font-size: small;
+    text-decoration: underline;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.reco {
+     padding-bottom: 20px;
+}
+
+.reco > span {
+    text-align: left;
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.topic {
+align-content: center;
+background-color: lightgray;
+border-radius: 10px;
+margin: 10px;
+width: auto;
+height: 25px;
+}
+
+.topic > span {
+    font-size: 15px;
+}
+
+
+.follow > span {
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.people {
+    display: flex;
+    margin: 20px 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.propic > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.followbut > button {
+    width: 60px;
+    height: 30px;
+    border: solid 1px;
+}
+
+.container5 {
+    padding-top: 30px;
+}
+
+.saved > span{
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+.contai {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width: 400px;
+    height: 100px;
+    padding: 15px 50px;
+}
+
+.other > p {
+    font-size: small;
+    color: green;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+.container6 {
+    padding: 50px;
+}
+
+.one {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
